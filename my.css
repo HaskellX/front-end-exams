@@ -1,0 +1,59 @@
+
+.subpanel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: solid;
+}
+
+.left_panel{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+
+.right_panel{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.middle_panel{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+
+.universe {
+    position: relative;
+    left: 50%;
+    width: 800px;
+    height: 800px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.sun {
+    background-color: yellow;
+    position: relative;
+    /*left: 50%;*/
+    top: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes backwadrs-rotate {
+    100% {
+        transform: rotate(-360deg)
+    }
+}
